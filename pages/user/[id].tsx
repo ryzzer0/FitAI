@@ -126,7 +126,7 @@ const UserPage = () => {
         {
           headers: {
             Authorization:
-              `Bearer ${process.env.API_KEY}`, // Replace with your OpenAI API key
+              `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`, // Replace with your OpenAI API key
             "Content-Type": "application/json",
           },
         }
