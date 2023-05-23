@@ -126,7 +126,7 @@ const UserPage = () => {
         {
           headers: {
             Authorization:
-              "Bearer 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", // Replace with your OpenAI API key
+              "Bearer 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", // Replace with your OpenAI API key
             "Content-Type": "application/json",
           },
         }

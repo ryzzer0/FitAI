@@ -71,6 +71,7 @@ const SignupCard = () => {
     { value: "Machines", label: "Machines" },
     { value: "Bodyweight", label: "Bodyweight" },
     { value: "Resistance Band", label: "Resistance Band" },
+    { value: "None", label: "None"},
   ];
 
   const db = getFirestore(app);
