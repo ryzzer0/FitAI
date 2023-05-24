@@ -48,6 +48,7 @@ const UserPage = () => {
             setUserData(docSnapshot.data() as UserData);
           } else {
             console.log("No such document!");
+            console.log("No such document!");
             setUserData(null);
           }
         })
